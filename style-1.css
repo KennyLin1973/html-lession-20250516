@@ -1,0 +1,28 @@
+p, ul {
+border:2px solid purple;
+/* border-bottom: solid red; */
+padding: .5em;
+}
+
+li {
+border: 5px inset blue;
+padding: .5em;
+}
+
+.block {
+    border: 5px outset blue;
+    padding: .5em;
+    }
+
+ul {
+display: flex;
+list-style: none;
+}
+
+li {
+margin: 5px 10px;
+}
+
+.block {
+display: block;
+}
